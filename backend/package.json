@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a simple calculator ",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "klefever",
+  "license": "ISC"
+}
