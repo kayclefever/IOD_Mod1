@@ -11,4 +11,4 @@ console.log(basketballplayers);
 
 let lastBasketballplayer = basketballplayers.pop();
 console.log(lastBasketballplayer);
-console.log(basketballplayers)
+console.log(basketballplayers);
