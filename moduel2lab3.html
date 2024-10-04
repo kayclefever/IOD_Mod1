@@ -1,0 +1,96 @@
+<html>
+<body>
+    <style>
+    body {
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: purple;
+    }
+    
+    .background-1 {
+        background: #68B0AB;
+    }
+    
+    .background-2 {
+        background: #8FC0A9;
+    }
+    
+    .background-3 {
+        background: #C8D5B9;
+    }
+    
+    .background-4 {
+        background: #FAF3DD;
+    }
+    
+    .m-20 {
+        margin: 20px;
+    }
+    
+    .h-80 {
+        height: 80px;
+    }
+    
+    .h-400 {
+        height: 400px;
+    }
+    
+    .w-80 {
+        width: 80px;
+    }
+    </style>
+    <header>
+        <nav>
+            <h2><a href="../../index.html">Lab Selector</a></h2>
+        </nav>
+    </header>
+    <section>
+      <h3>Basic flexbox</h3>
+
+      <div class="flex-container">
+        <div class="flex-item-1 background-1 h-80"></div>
+        <div class="flex-item-2 background-2 h-80"></div>
+        <div class="flex-item-3 background-3 h-80"></div>
+        <div class="flex-item-4 background-4 h-80"></div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Centering elements</h3>
+      <div class="m-20 flex-container flex-center h-400 background-4">
+        <div class="background-1 h-80 w-80"></div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Spacing elements on the opposite sides</h3>
+      <div class="flex-container flex-space-between">
+        <div class="h-80 background-1">I'm on the left</div>
+        <div class="h-80 background-2">I'm on the right</div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Wrapping items</h3>
+      <div class="flex-container flex-wrap">
+        <div class="flex-basis-item-50 h-80 background-1"></div>
+        <div class="flex-basis-item-50 h-80 background-2"></div>
+        <div class="flex-basis-item-50 h-80 background-3"></div>
+        <div class="flex-basis-item-50 h-80 background-4"></div>
+      </div>
+    </section>
+  </body>
+  </html>
+
+
+
+
+
+
+
+
+
