@@ -28,20 +28,50 @@
     }
     
     .m-20 {
-        margin: 20px;
+        margin: 10px;
     }
     
     .h-80 {
-        height: 80px;
+        height: 50px;
     }
     
     .h-400 {
-        height: 400px;
+        height: 200px;
     }
     
     .w-80 {
-        width: 80px;
+        width: 40px;
     }
+
+    #center-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-space-between {
+        display: flex;
+        justify-content: space-between;
+    }
+
+     .wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wrap > div {
+        width: 300px
+    }
+
+    .flex-beginning {
+        display: flex;
+    }
+
+    .flex-beginning > div {
+        width: 200px;
+    }
+
+    
     </style>
     <header>
         <nav>
@@ -51,7 +81,7 @@
     <section>
       <h3>Basic flexbox</h3>
 
-      <div class="flex-container">
+      <div class="flex-beginning">
         <div class="flex-item-1 background-1 h-80"></div>
         <div class="flex-item-2 background-2 h-80"></div>
         <div class="flex-item-3 background-3 h-80"></div>
@@ -61,7 +91,7 @@
 
     <section>
       <h3>Centering elements</h3>
-      <div class="m-20 flex-container flex-center h-400 background-4">
+      <div class="m-20 flex-container flex-center h-400 background-4" id="center-box">
         <div class="background-1 h-80 w-80"></div>
       </div>
     </section>
@@ -76,7 +106,7 @@
 
     <section>
       <h3>Wrapping items</h3>
-      <div class="flex-container flex-wrap">
+      <div class="wrap">
         <div class="flex-basis-item-50 h-80 background-1"></div>
         <div class="flex-basis-item-50 h-80 background-2"></div>
         <div class="flex-basis-item-50 h-80 background-3"></div>
@@ -85,12 +115,3 @@
     </section>
   </body>
   </html>
-
-
-
-
-
-
-
-
-
